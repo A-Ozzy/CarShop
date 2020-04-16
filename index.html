@@ -1,0 +1,325 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>
+		<!-- Заголовок страницы в браузере -->
+		<title>CarShop</title>
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="css/style.css" />
+		<!-- Кодировка страницы -->
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+	</head>
+	<!-- Отображаемое тело страницы -->
+	<div class="body">
+		<div class="wrapper">
+			<section class="heder">
+				<div class="container">
+					<div class="heder__top">
+						<div class="heder__top__row">
+							<div class="heder__top__logo"><img src="icons/logo.png" alt=""></div>
+							<div class="heder__top__phone">
+								<a class="heder__top__phone__number" href="tel:88002323212">8 800 232 32 12</a>
+								<a class="heder__top__phone__link" href="#">Заказать обратный звонок</a>
+							</div>
+						</div>
+					</div>
+					<div class="heder__main">
+						<h1>Продажа кузовных запчастей</h1>
+						<h2>с заводской покраской без пробега по РФ</h2>
+						<div class="heder__main__icons icons">
+							<div class="icons__body">
+								<div class="icons__body__icon">
+									<img src="icons/icon__1.png" alt="icon__1.png">
+								</div>
+								<div class="icons__body__text">Доставка по РФ от 3-х дней</div>
+							</div>
+							<div class="icons__body">
+								<div class="icons__body__icon">
+									<img src="icons/icon__2.png" alt="icon__2.png">
+								</div>
+								<div class="icons__body__text">Новое состояние по цене б/у</div>
+							</div>
+							<div class="icons__body">
+								<div class="icons__body__icon">
+									<img src="icons/icon__3.png" alt="icon__3.png">
+								</div>
+								<div class="icons__body__text">Наличие более 500 различных деталей</div>
+							</div>
+						</div>
+					</div>
+					<div class="heder__bottom">
+						<div class="heder__bottom__row">
+							<div class="heder__bottom__body">
+								 <div class="heder__bottom__body__btn">
+								 	<button class="btn" >Быстрая заявка</button>
+								 </div>
+								 <div class="heder__bottom__body__text">Мы перезвоним Вам для уточнения деталей.</div>
+							</div>
+							<div class="heder__bottom__body">
+								 <div class="heder__bottom__body__btn">
+								 	<button class="btn-transparent" >Подробная заявка</button>
+								 </div>
+								 <div class="heder__bottom__body__text">Заполните подробную заявку онлайн!</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="advantages">
+				<div class="container">
+					<div class="advantages__row">
+						<div class="advantages__body">
+							<div class="advantages__body__icon">
+								<img src="icons/icon_4.png" alt="">
+							</div>
+							<div class="advantages__body__subtitle subtitle">Более 1000 наименований</div>
+							<div class="advantages__body__text text">Возможность заказа и подбора более чем по 2000 наименований деталей</div>
+						</div>
+						<div class="advantages__body">
+							<div class="advantages__body__icon">
+								<img src="icons/icon_5.png" alt="">
+							</div>
+							<div class="advantages__body__subtitle subtitle">Доставка в любой регион РФ</div>
+							<div class="advantages__body__text text">Мы работаем с любой транспортной компанией и осуществляем доставку в любой регион РФ</div>
+						</div>
+						<div class="advantages__body">
+							<div class="advantages__body__icon">
+								<img src="icons/icon_6.png" alt="">
+							</div>
+							<div class="advantages__body__subtitle subtitle">Новое состояние деталей</div>
+							<div class="advantages__body__text text">Наши детали не были в употреблении и имеют состояние новых</div>
+						</div>
+						<div class="advantages__body">
+							<div class="advantages__body__icon">
+								<img src="icons/icon_7.png" alt="">
+							</div>
+							<div class="advantages__body__subtitle subtitle">Европейское качество</div>
+							<div class="advantages__body__text text">Все наши детали привезены из Европы, что гарантирует отличное качество.</div>
+						</div>
+						<div class="advantages__body">
+							<div class="advantages__body__icon">
+								<img src="icons/icon_8.png" alt="">
+							</div>
+							<div class="advantages__body__subtitle subtitle">Работаем по договору</div>
+							<div class="advantages__body__text text">Все, что мы делаем - официально. Мы заключаем договор купли-продажи и предоставляем все необходимые документыю</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="request">
+				<div class="container-b">
+					<div class="request__title title">Подробная заявка</div>
+					<div class="request__text text">Заполните форму и получите максимально точную цену!</div>
+					<div class="request__row">
+						<div class="request__row__column column">
+							<form action="#">
+								<div class="column__name subtitle">Марка:</div>
+								<select class="column__typecar">
+									<option value="choose" checked="">Выберите марку</option>
+									<option value="BMW">BMW</option>
+									<option value="Mercedec">Mercedec</option>
+									<option value="Audi">Audi</option>
+									<option value="Mazda">Mazda</option>
+									<option value="Opel">Opel</option>
+									<option value="Bentley">Bentley</option>
+									<option value="Other">Другая</option>
+								</select>
+								<div class="column__name subtitle">Модель:</div>
+								<select class="column__model">
+									<option value="choose" checked="">Выберите модель</option>
+									<option value="model_1">модель_1</option>
+									<option value="model_2">модель_2</option>
+									<option value="model_3">модель_3</option>
+									<option value="model_4">модель_4</option>
+									<option value="model_5">модель_5</option>
+									<option value="model_6">модель_6</option>
+									<option value="model_7">модель_7</option>
+								</select>
+								<div class="column__name subtitle">Год выпуска</div>
+								<select class="column__year">
+									<option value="year" checked="">Введите год</option>
+									<option value="year">2000</option>
+									<option value="year">2001</option>
+									<option value="year">2002</option>
+									<option value="year">2003</option>
+									<option value="year">2004</option>
+									<option value="year">2005</option>
+									<option value="year">2006</option>
+								</select>
+							</form>
+						</div>
+						<div class="request__row__column">
+							<form action="#">
+								<div class="column__name subtitle">Необходимые детали:</div>
+								<input type="textarea" name="ditails" placeholder="Введите">
+								<div class="column__name subtitle">Ваше имя:</div>
+								<input type="text" name="ditails" placeholder="Введите">
+							</form>
+						</div>
+						<div class="request__row__column">
+							<form action="#">
+								<div class="column__name subtitle">Ваш телефон:</div>
+								<input type="tel" name="userphone" placeholder="Введите телефон">
+								<div class="column__name subtitle">Ваше email:</div>
+								<input type="text"class="_column__name__inputemail" name="email" placeholder="Введите">
+								<div class="request__row__column__btn">
+									<button class="btn" >Узнать цену</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="ditails">
+				<div class="container">
+					<div class="ditails__title title">Имеем в наличии детали на авто:</div>
+					<div class="ditails__row">
+						<div class="ditails__car-icom">
+							<img src="icons/Car_marks/icon_1.png" alt="">
+						</div>
+						<div class="ditails__car-icom">
+							<img src="icons/Car_marks/icon_2.png" alt="">
+						</div>
+						<div class="ditails__car-icom">
+							<img src="icons/Car_marks/icon_3.png" alt="">
+						</div>
+						<div class="ditails__car-icom">
+							<img src="icons/Car_marks/icon_4.png" alt="">
+						</div>
+						<div class="ditails__car-icom">
+							<img src="icons/Car_marks/icon_5.png" alt="">
+						</div>
+						<div class="ditails__car-icom">
+							<img src="icons/Car_marks/icon_6.png" alt="">
+						</div>
+						<div class="ditails__car-icom">
+							<img src="icons/Car_marks/icon_7.png" alt="">
+						</div>
+						<div class="ditails__car-icom">
+							<img src="icons/Car_marks/icon_8.png" alt="">
+						</div>
+						<div class="ditails__car-icom">
+							<img src="icons/Car_marks/icon_9.png" alt="">
+						</div>
+						<div class="ditails__car-icom">
+							<img src="icons/Car_marks/icon_10.png" alt="">
+						</div>
+						<div class="ditails__car-icom">
+							<img src="icons/Car_marks/icon_11.png" alt="">
+						</div>
+						<div class="ditails__car-icom">
+							<img src="icons/Car_marks/icon_12.png" alt="">
+						</div>
+						<div class="ditails__car-icom">
+							<img src="icons/Car_marks/icon_13.png" alt="">
+						</div>
+					</div>
+					<div class="ditails__subtitle title">Вы можете посмотреть что происходит у нас!</div>
+					<div class="ditails__video">
+					<iframe width="810" height="420" src="https://www.youtube.com/embed/v3jZbaWIS0o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+				</div>
+			</section>
+			<section class="review">
+				<div class="container-b">
+					<div class="review__title title">Клиенты о нас</div>
+					<div class="review__row">
+						<div class="review__item">
+							<div class="review__item__pic">
+								<img src="img/sparta.png" alt="sparta.png">
+							</div>
+							<div class="review__item__text">
+								<div class="review__item__text___name">Иван Иванович</div>
+								<div class="review__item__text___heading">Не могу найти фару для авто</div>
+								<div class="review__item__text___text text">“ Мотордеталь в широком ассортименте по ценам от известного дистрибьютора автозапчастей. ООО "РАДИАТОР" пользуется заслуженным уважением среди покупателей, благодаря высокому сервису, скидкам, отличному качеству продукции.</div>
+							</div>
+						</div>
+						<div class="review__item">
+							<div class="review__item__pic">
+								<img src="img/sparta.png" alt="sparta.png">
+							</div>
+							<div class="review__item__text">
+								<div class="review__item__text___name">Иван Иванович</div>
+								<div class="review__item__text___heading">Не могу найти фару для авто</div>
+								<div class="review__item__text___text text">“ Мотордеталь в широком ассортименте по ценам от известного дистрибьютора автозапчастей. ООО "РАДИАТОР" пользуется заслуженным уважением среди покупателей, благодаря высокому сервису, скидкам, отличному качеству продукции.</div>
+							</div>
+						</div>
+						<div class="review__item">
+							<div class="review__item__pic">
+								<img src="img/sparta.png" alt="sparta.png">
+							</div>
+							<div class="review__item__text">
+								<div class="review__item__text___name">Иван Иванович</div>
+								<div class="review__item__text___heading">Не могу найти фару для авто</div>
+								<div class="review__item__text___text text">“ Мотордеталь в широком ассортименте по ценам от известного дистрибьютора автозапчастей. ООО "РАДИАТОР" пользуется заслуженным уважением среди покупателей, благодаря высокому сервису, скидкам, отличному качеству продукции.</div>
+							</div>
+						</div>
+						<div class="review__item">
+							<div class="review__item__pic">
+								<img src="img/sparta.png" alt="sparta.png">
+							</div>
+							<div class="review__item__text">
+								<div class="review__item__text___name">Иван Иванович</div>
+								<div class="review__item__text___heading">Не могу найти фару для авто</div>
+								<div class="review__item__text___text text">“ Мотордеталь в широком ассортименте по ценам от известного дистрибьютора автозапчастей. ООО "РАДИАТОР" пользуется заслуженным уважением среди покупателей, благодаря высокому сервису, скидкам, отличному качеству продукции.</div>
+							</div>
+						</div>
+					</div>			
+				</div>
+			</section>
+			<section class="consultation">
+				<div class="container">	
+					<div class="consultation__title title">Нужна консультация?</div>
+					<div class="consultation__text text">Заполните форму и получите максимально точную цену!</div>
+					<div class="consultation__row">
+						<div class="consultation__box box">
+							<div class="box__item">
+								<div class="box__item__name">Ваше имя:</div>
+								<input type="text" class="input-bottom" name="">
+							</div>
+							<div class="box__item">
+								<div class="box__item__name">Ваш телефон:</div>
+								<input type="tel" class="input-bottom" name="">
+							</div>
+						</div>
+						<div class="consultation__btn">
+							<button class="btn-l" >Заказать консультацию</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="map">
+				<div class="map__container">
+					<iframe src="https://www.google.com/maps/d/embed?mid=1wYuLwWa7Lhgn5NI_ZnGeBL9KMF2_PO-6" width="1140" height="480"></iframe>
+				</div>
+				<div class="map__info">
+					<div class="map__info__title">Контакты</div>
+					<div class="map__info__address">г. Москва, ул. Дорожная, 8, к.1</div>
+					<a class="map__info__phone" href="tel:88001234334">8 800 123 43 34</a>
+					<a class="map__info__mail" href="mailto:info@sitename.ru">info@sitename.ru</a>
+				</div>
+			</section>
+			<section class="footer">
+				<div class="container">
+					<div class="footer__row">
+						<div class="footer__logo"><img src="icons/logo.png" alt=""></div>
+						<div class="footer__phone">
+							<a class="footer__phone__number" href="tel:88002323212">8 800 232 32 12</a>
+							<a class="footer__phone__link" href="#">Заказать обратный звонок</a>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<!-- Подключение JQuery -->
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+		<!-- Подключение SlickSlider -->
+		<script src="js/slick.min.js"></script>
+		<!-- Подключение файл скриптов JS -->
+		<script src="js/script.js"></script>
+	</div>
+</html>
+
